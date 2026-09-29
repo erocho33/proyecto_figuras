@@ -1,5 +1,5 @@
 <<<<<<< HEAD
-from lib import cuadrado, triangulo
+from lib import cuadrado, triangulo, circunferencia
 =======
 from lib import cuadrado
 from lib import rectangulo
@@ -19,3 +19,7 @@ print(f'el area de un {triangulo.get_identificador()} de base {base} y altura {a
 print(rectangulo.get_identificador())
 print(f"el area de un {rectangulo.get_identificador()} de base {base}\ y altura {altura} es: {rectangulo.get_area(base, altura)} y el perimetro es {rectangulo.get_perimetro(base, altura)}")
 >>>>>>> feature_rectangulo
+
+radio=5
+print(circunferencia.get_identificador())
+print(f"el area de una {circunferencia.get_identificador()} de radio {radio} es: {circunferencia.get_area(radio)}")
